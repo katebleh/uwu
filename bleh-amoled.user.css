@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           bleh (amoled, uwu.social)
+@namespace      github.com/katelmao/lastfm-bleh
+@version        2023.0916
+@license        GPL-3.0
+@author         kate
+@updateURL      https://github.com/katebleh/uwu/raw/uwu/bleh-amoled.user.css
+==/UserStyle== */
+
+@-moz-document domain("uwu.social") {
+    :root, body, html,
+	.status__action-bar__button, .detailed-status__button .icon-button
+	{
+		/* b1-6 */
+		--b1: var(--base-hue),calc(var(--saturation)*22%),20%;
+		--b2: var(--base-hue),calc(var(--saturation)*22%),16%;
+		--b3: var(--base-hue),calc(var(--saturation)*22%),12%;
+		--b4: var(--base-hue),calc(var(--saturation)*20%),10%;
+		--b5: var(--base-hue),calc(var(--saturation)*16%),6%;
+		--b6: var(--base-hue),0%,0%;
+		/* d1-6 */
+		--d1: var(--base-hue),calc(var(--saturation)*33%),calc(var(--lightness)*20%);
+		--d2: var(--base-hue),calc(var(--saturation)*33%),calc(var(--lightness)*16%);
+		--d3: var(--base-hue),calc(var(--saturation)*31%),calc(var(--lightness)*12%);
+		--d4: var(--base-hue),calc(var(--saturation)*31%),calc(var(--lightness)*10%);
+		--d5: var(--base-hue),calc(var(--saturation)*29%),calc(var(--lightness)*6%);
+		--d6: var(--base-hue),calc(var(--saturation)*26%),calc(var(--lightness)*2%);
+		/* custom */
+		--ba5: var(--base-hue),calc(var(--saturation)*20%),5%,70%;
+		--ba6: var(--base-hue),calc(var(--saturation)*0%),0%,93%;
+	}
+}
